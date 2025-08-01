@@ -4,7 +4,7 @@ import numpy as np
 #plt.switch_backend('agg')
 
 # Ensure matplotlib backend works well with Streamlit
-plt.switch_backend('agg')
+#plt.switch_backend('agg')
 
 # ------------------------ Configuration ------------------------ #
 battery_types = {
