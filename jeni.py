@@ -74,7 +74,7 @@ col4.metric("Efficiency", f"{b_config['efficiency'] * 100:.0f}%")
 # ------------------------ Graphs ------------------------ #
 st.subheader("📈 Live Graphs")
 
-fig, ax = plt.subplots(3, 1, figsize=(10, 6))
+#fig, ax = plt.subplots(3, 1, figsize=(10, 6))
 
 ax[0].plot(data["Time (s)"], data["SOC (%)"], color="green")
 ax[0].set_ylabel("SOC (%)")
